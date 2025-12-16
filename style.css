@@ -38,12 +38,12 @@ body{
     color: #999 ;
     font-size: 18px;
     transition: color 0.3s;
-     padding-right: 20px;
+    padding-right: 20px;
 }
 
 
 .icon{
-      color: #ff5722;
+    color: #ff5722;
     font-size: 16px;
    
     
@@ -84,7 +84,7 @@ body{
     font-family: Arial, sans-serif;
     font-size: 16px;
     font-weight: 400;
-    transition: color 0.3s
+    transition: color 0.3s;
 }
 
 .nav-menu a.active {
@@ -96,9 +96,6 @@ body{
     color: #ff5722;
 }
 
-.dropdown {
-    position: relative;
-}
 
 .dropdown::after {
     content: ' ▼';
@@ -176,7 +173,7 @@ body{
 
 .orange p {
     color: white;
-    line-height: 1.8;
+    line-height: 1.5;
     margin-bottom: 30px;
     font-size: 16px;
 }
@@ -206,8 +203,8 @@ body{
 
 .card-service {
     background: rgba(50, 50, 50, 0.8);
-    padding: 40px 30px;
-    border-radius: 10px;
+    padding: 30px 20px;
+    border-radius: 5px;
     text-align: center;
     color: white;
 }
@@ -226,7 +223,7 @@ body{
 
 .card-service p {
     color: #ccc;
-    line-height: 1.6;
+    line-height: 1.3;
     font-size: 14px;
 }
 
@@ -372,7 +369,6 @@ body{
 /* section5 est terminer*/
 
 
-
 .section5 {
     font-family: Arial, sans-serif;
     padding: 80px 40px;
@@ -400,20 +396,20 @@ body{
 .grids-6champs {
     display: flex;
     flex-wrap: wrap ;
-    gap: 15px;
+    gap: 25px;
     justify-content: center;
+    
 }
 
 
 .champs-text {
+    position: relative;
     background: white;
     border: 1px solid #e0e0e0;
-    padding: 40px 30px;
-    flex: 1 1 calc(33.333% - 30px);
+    padding: 40px 35px;
     max-width: 350px;
     min-width: 280px;
     text-align: center;
-    transition: all 0.3s;
 }
 
 .champs-text :hover {
@@ -423,6 +419,8 @@ body{
 
 
 .icon-circle {
+    position:absolute ;
+    top: -50px;
     width: 80px;
     height: 80px;
     background: #ff5722;
@@ -431,9 +429,11 @@ body{
     align-items: center;
     justify-content: center;
     margin: 0 auto 25px;
+    transform: translateX(150%);
 }
 
 .icon {
+    
     font-size: 35px;
     filter: brightness(0) invert(1);
 }
@@ -452,8 +452,75 @@ body{
     line-height: 1.7;
     font-size: 15px;
 }
+/* section5( terminer*/
 
+body {
+    font-family: Arial, sans-serif;
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+.portfolio-section6 {
+     background: #f5f5f5;
+    padding: 80px 40px;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.portfolio-aligne {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.portfolio-card {
+    flex: 1;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 400px;  
+}
+
+.portfolio-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 15px 15px ;
+    text-align: center;
+}
+
+.overlay-text h3 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.overlay-text p {
+    color: #666;
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+.portfolio-card img:hover{
+  transform: scale(1.1);
+  transition:1s;
+}
+
+.overlay-text h3:hover{
+    color: #ff5722;
+}
 
 
 
