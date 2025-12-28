@@ -3,7 +3,6 @@
     padding: 0;
 }
 
-
 body {
     background-color: #fffaf9;
 }
@@ -13,7 +12,6 @@ body {
     padding: 12px 20px;
     display: flex;
     justify-content: space-between;
-
 }
 
 .contact {
@@ -31,7 +29,6 @@ body {
     display: flex;
     align-items: center;
     gap: 8px;
-
 }
 
 .social-links {
@@ -47,10 +44,7 @@ body {
 .icon {
     color: #ff5722;
     font-size: 16px;
-
-
 }
-
 
 .icon-sociaux a:hover {
     color: #ff5722;
@@ -64,7 +58,6 @@ body {
     align-items: center;
     padding: 20px 65px;
     background: white;
-
 }
 
 .h1 {
@@ -73,7 +66,6 @@ body {
     font-weight: 700;
     color: #2c3e50;
     cursor: pointer;
-
 }
 
 .nav-menu {
@@ -100,7 +92,6 @@ body {
     color: #ff5722;
 }
 
-
 .dropdown::after {
     content: ' ▼';
     font-size: 10px;
@@ -108,7 +99,6 @@ body {
 }
 
 /* menu nav est terminer*/
-
 
 .section2 {
     background-image: url('hero-bg.jpg');
@@ -118,7 +108,6 @@ body {
     padding: 80px 40px;
     position: relative;
 }
-
 
 .section2::before {
     content: '';
@@ -131,16 +120,13 @@ body {
     z-index: 1;
 }
 
-
 .champ-text {
     position: relative;
     z-index: 2;
     color: white;
     max-width: 1200px;
     padding: 20px 30px;
-
 }
-
 
 .champ-text h1 {
     font-size: 48px;
@@ -153,13 +139,11 @@ body {
     margin-bottom: 60px;
 }
 
-
 .champ-gnrl {
     display: flex;
     gap: 30px;
     margin-top: 60px;
 }
-
 
 .orange {
     background: #ff5722;
@@ -183,7 +167,6 @@ body {
     font-size: 16px;
 }
 
-
 .btn-learn {
     display: inline-block;
     padding: 12px 30px;
@@ -198,7 +181,6 @@ body {
 .btn-learn:hover {
     background: rgba(255, 255, 255, 0.3);
 }
-
 
 .service-gnrl {
     display: flex;
@@ -242,9 +224,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     align-items: center;
-
 }
-
 
 .img-left {
     flex: 1;
@@ -258,11 +238,8 @@ body {
     padding: 20px 40px;
 }
 
-
-
 .text-right {
     flex: 1;
-
 }
 
 .text-right h2 {
@@ -279,21 +256,16 @@ body {
     font-size: 15px;
 }
 
-
 .text {
     display: flex;
     gap: 20px;
     margin-bottom: 30px;
 }
 
-
 .icon-2 {
     font-size: 40px;
     color: #ff5722;
-
-
 }
-
 
 .text-2 h3 {
     font-size: 18px;
@@ -321,12 +293,10 @@ body {
 .section-photo {
     overflow: hidden;
     width: 100%;
-
 }
 
 .photo {
     display: flex;
-
 }
 
 .logo-tof {
@@ -342,7 +312,6 @@ body {
     height: auto;
     filter: grayscale(100%);
     opacity: 0.6;
-
 }
 
 .logo-tof img:hover {
@@ -350,15 +319,12 @@ body {
     opacity: 1;
 }
 
-
 .Points {
     display: flex;
     justify-content: center;
     gap: 10px;
     top: 40px;
     cursor: pointer;
-
-
 }
 
 .Point {
@@ -375,7 +341,6 @@ body {
 
 /* section5 est terminer*/
 
-
 .section5 {
     font-family: Arial, sans-serif;
     padding: 80px 40px;
@@ -384,7 +349,6 @@ body {
     text-align: center;
 }
 
-
 .section5 h2 {
     font-size: 36px;
     color: #2c3e50;
@@ -392,22 +356,18 @@ body {
     font-weight: 700;
 }
 
-
 .sous-titre {
     color: #666;
     font-size: 16px;
     margin-bottom: 60px;
 }
 
-
 .grids-6champs {
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
     justify-content: center;
-
 }
-
 
 .champs-text {
     position: relative;
@@ -420,11 +380,10 @@ body {
     cursor: pointer;
 }
 
-.champs-text :hover {
+.champs-text:hover {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     transform: translateY(-5px);
 }
-
 
 .icon-circle {
     position: absolute;
@@ -441,11 +400,9 @@ body {
 }
 
 .icon {
-
     font-size: 35px;
     filter: brightness(0) invert(1);
 }
-
 
 .champs-text h3 {
     font-size: 20px;
@@ -454,14 +411,13 @@ body {
     font-weight: 700;
 }
 
-
 .champs-text p {
     color: #666;
     line-height: 1.7;
     font-size: 15px;
 }
 
-/* section5( terminer*/
+/* section5 terminer*/
 
 body {
     font-family: Arial, sans-serif;
@@ -532,8 +488,8 @@ body {
     color: #ff5722;
 }
 
-
 /* section6 termoner*/
+
 .section-6 {
     position: relative;
     font-family: Arial, sans-serif;
@@ -541,9 +497,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-image: url(testimonials-bg.jpg); */
-    background-image:
-        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url("testimonials-bg.jpg");
     background-size: cover;
     background-position: center;
@@ -642,15 +596,10 @@ body {
 }
 
 .dot:hover {
-    background-color: o (255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
-/*sectionn-6 terminer*/
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/*section-6 terminer*/
 
 .section-7 {
     font-family: Arial, sans-serif;
@@ -713,12 +662,6 @@ body {
 }
 
 /*section-7 terminer*/
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 .section-8 {
     font-family: Arial, sans-serif;
@@ -822,11 +765,6 @@ body {
 }
 
 /* section-8 terminer*/
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 .team-header {
     text-align: center;
@@ -865,7 +803,6 @@ body {
     overflow: hidden;
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
 }
-
 
 .team-image {
     width: 100%;
@@ -951,13 +888,7 @@ body {
     font-style: italic;
 }
 
-
 /*section-9 terminer*/
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 .section-10 {
     font-family: Arial, sans-serif;
@@ -994,25 +925,32 @@ body {
     background: white;
     border: 1px solid #e0e0e0;
     border-radius: 10px;
-    padding: -40px 30px;
+    padding: 0;
     flex: 1 1 calc(25% - 30px);
     max-width: 280px;
     min-width: 250px;
     text-align: center;
     position: relative;
-    transition: all 0.;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.pricing-card:nth-child(2) {
+    border: 3px solid #ff5722;
+}
+
+.pricing-card:nth-child(2) .plan-header {
+    background-color: #ff5722;
+    color: white;
 }
 
 .plan-header {
     background: #f5f5f5;
-    padding: 15px;
-    border-radius: 8px;
-    font-size: 25px;
+    padding: 20px;
+    font-size: 18px;
     font-weight: 600;
-    color: #2c3e50;
-    margin-bottom: 80px;
+    color: #333;
 }
-
 
 .badge {
     position: absolute;
@@ -1031,7 +969,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 30px;
+    margin: 30px 0;
 }
 
 .currency {
@@ -1084,14 +1022,10 @@ body {
     border-radius: 5px;
     font-weight: 600;
     transition: all 0.3s;
+    margin-bottom: 20px;
 }
 
-/* section-10 esr terminer*/
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* section-10 est terminer*/
 
 .section-11 {
     font-family: Arial, sans-serif;
@@ -1102,7 +1036,7 @@ body {
 }
 
 .faq-section h2 {
-    font-size: 6px;
+    font-size: 36px;
     color: #2c3e50;
     margin-bottom: 80px;
     font-weight: 700;
@@ -1145,7 +1079,7 @@ body {
     gap: 15px;
 }
 
-.faq-question :hover {
+.faq-question:hover {
     color: orangered;
 }
 
@@ -1206,11 +1140,6 @@ body {
 }
 
 /* section11 est terminer*/
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 .section-12 {
     background: #f9f9f9;
@@ -1257,7 +1186,7 @@ body {
 
 .info-card:hover {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    transform: translate(5px);
+    transform: translateY(-5px);
 }
 
 .icon-circle {
@@ -1373,12 +1302,6 @@ body {
 }
 
 /* section 12 terminer*/
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .footer {
     font-family: Arial, sans-serif;
     background-color: #fffaf9;
@@ -1563,4 +1486,415 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.scroll-top-btn:hover {
+    background-color: #ff6b3d;
+    transform: translateY(-3px);
+}
+
+
+
+@media screen and (max-width: 1024px) {
+   
+.menu {
+    padding: 20px 30px;
+}
+
+.nav-menu {
+    gap: 20px;
+}
+
+
+.section2 {
+    padding: 60px 30px;
+}
+
+.champ-gnrl {
+    flex-wrap: wrap;
+}
+
+.orange {
+    max-width: 100%;
+}
+
+
+.section3 {
+    flex-direction: column;
+    padding: 40px 20px;
+}
+
+.img-left {
+    right: 0;
+}
+
+
+.grids-6champs {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.portfolio-aligne {
+    flex-direction: column;
+}
+
+
+.portfolio-grid {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.section-9 {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px 40px;
+}
+
+/
+.pricing-card {
+    max-width: 100%;
+}
+
+
+.contact-info-grid {
+    flex-direction: column;
+}
+
+
+.footer-content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    
+.tete {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+}
+
+.contact {
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 0;
+    text-align: center;
+}
+
+.social-links {
+    width: 100%;
+    justify-content: center;
+}
+
+
+.menu {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.h1 {
+    font-size: 28px;
+}
+
+.nav-menu {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+
+.section2 {
+    padding: 40px 20px;
+    min-height: auto;
+}
+
+.champ-text h1 {
+    font-size: 32px;
+}
+
+.champ-text p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.champ-gnrl {
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.orange {
+    padding: 30px;
+    max-width: 100%;
+}
+
+.orange h2 {
+    font-size: 28px;
+}
+
+.service-gnrl {
+    flex-direction: column;
+}
+
+
+.section3 {
+    flex-direction: column;
+    padding: 40px 20px;
+}
+
+.img-left {
+    right: 0;
+}
+
+.img-left img {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.text-right h2 {
+    font-size: 28px;
+}
+
+
+.section4 {
+    padding: 40px 10px;
+}
+
+.photo {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logo-tof {
+    width: 100px;
+}
+
+
+.section5 {
+    padding: 60px 20px;
+}
+
+.section5 h2 {
+    font-size: 32px;
+}
+
+.grids-6champs {
+    grid-template-columns: 1fr;
+}
+
+.champs-text {
+    max-width: 100%;
+    padding: 60px 30px 30px;
+}
+
+.icon-circle {
+    transform: translateX(100%);
+}
+
+
+.portfolio-section6 {
+    padding: 60px 20px;
+}
+
+.portfolio-aligne {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.portfolio-card {
+    height: 350px;
+}
+
+
+.section-6 {
+    padding: 60px 20px;
+    height: auto;
+}
+
+.profile-Nom {
+    font-size: 26px;
+}
+
+.temoigner-tex {
+    font-size: 16px;
+}
+
+.cote-left,
+.cote-right {
+    font-size: 40px;
+}
+
+
+.portfolio-header h2 {
+    font-size: 28px;
+}
+
+.filter-buttons {
+    gap: 10px;
+}
+
+.filter-btn {
+    padding: 8px 16px;
+    font-size: 14px;
+}
+
+
+.portfolio-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.grid-item {
+    grid-row: span 1 !important;
+    grid-column: span 1 !important;
+}
+
+
+.team-header h2 {
+    font-size: 28px;
+}
+
+.section-9 {
+    grid-template-columns: 1fr;
+    padding: 10px 20px;
+    height: auto;
+}
+
+.team-image {
+    height: 300px;
+}
+
+
+.section-10 {
+    padding: 60px 20px;
+}
+
+.section-10 h2 {
+    font-size: 28px;
+}
+
+.pricing-grid {
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing-card {
+    width: 100%;
+    max-width: 350px;
+}
+
+
+.section-11 {
+    padding: 60px 20px;
+}
+
+.faq-question {
+    padding: 15px 20px;
+}
+
+.question-text {
+    font-size: 16px;
+}
+
+
+.section-12 {
+    padding: 60px 20px;
+}
+
+.section-12 h2 {
+    font-size: 28px;
+}
+
+.contact-info-grid {
+    flex-direction: column;
+}
+
+.info-card {
+    flex: 1 1 100%;
+    min-width: auto;
+}
+
+.contact-form {
+    padding: 30px 20px;
+}
+
+.form-row {
+    flex-direction: column;
+    gap: 15px;
+}
+
+/
+.footer {
+    padding: 40px 20px 20px;
+}
+
+.footer-content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+.newsletter-form {
+    flex-direction: column;
+}
+
+.subscribe-btn {
+    width: 100%;
+}
+
+
+.scroll-top-btn {
+    width: 45px;
+    height: 45px;
+    bottom: 20px;
+    right: 20px;
+}
+}
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    .champ-text h1 {
+    font-size: 28px;
+}
+
+.orange h2 {
+    font-size: 24px;
+}
+
+.section5 h2,
+.section-10 h2,
+.team-header h2 {
+    font-size: 24px;
+}
+
+.filter-btn {
+    padding: 6px 12px;
+    font-size: 13px;
+}
+
+.icon-circle {
+    width: 50px;
+    height: 50px;
+}
+
+.icon {
+    font-size: 24px;
+}
+
+.btn-learn,
+.btn-buy,
+.btn-submit {
+    padding: 10px 25px;
+    font-size: 14px;
+}
 }
